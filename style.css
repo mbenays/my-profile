@@ -1,0 +1,150 @@
+body {
+	background-color: #ecf4f3;
+	font-family: Calibri, serif;
+	color: #061829;
+}
+
+div {
+	width: 500px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+	@media (max-width: 760px) {
+		.container {
+			width: 600px;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.container {
+			width: 400px;
+		}
+	}
+
+/*DIV 1: Titre - Presentation*/
+
+	#title {
+		font-family: 'Roboto', sans-serif;
+		font-size: 70px;
+		line-height: 0.5;
+		font-weight: 500;
+		color: #010a43;
+		text-align: center;
+	}
+
+	#photo-manon {
+		width: 180px;
+		border-radius: 50%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto 
+	}
+
+	.div-section {
+		background: #ffffff;
+		padding: 5px;
+		border-radius: 5px;
+		box-shadow: 0px 50px 3px color:#bae8e8;
+		border: 0px solid color:#ffffff;
+		width: 500px;
+		margin: 20px auto;
+		text-align: justify;
+	}
+
+	#presentation-manon {
+		text-align: center;
+		color: #293462;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1;
+		padding: 10px;
+		margin: 8px;
+
+	}
+
+	#site-manon {
+		color: #ecf4f3;
+		text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1;
+		padding: 10px;
+		margin: 8px;
+		display: block;
+		text-align: center;
+	}
+
+
+
+	#linkedin {
+		background: #010a43;
+		padding: 0px;
+		border-radius: 5px;
+		width: 150px;
+		height: 40px;
+		
+	}
+
+
+/*Autres Div*/
+
+	.subtitle {
+		text-align: center;
+		color: #142850;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1;
+		padding: 1px;
+		margin: 8px;
+	}
+
+	.subtitle-content{
+		text-align: justify;
+		color: #293462;
+		font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 1.5;
+		padding: 10px;
+		margin: 8px;
+		
+	}
+
+/*Div School webpage*/
+
+	.subtitle-content-schoollinks {
+		color: #293462;
+		text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 1;
+		padding: 2px;
+		margin: 8px;
+	}
+
+	.list-inline {
+		list-style: none;
+		padding-left: 0px;
+	}
+
+	.list-inline li {
+		display: inline;
+		padding: 3px;
+		text-align: center;
+		display: block;
+		text-align: center;
+	}
+
+/*School webpage + Linkedin*/
+	a:hover {
+		color: #ba6b57
+		}
+
+
+
+
